@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Data.Entity;
 
 namespace QOTD_2cs
 {
-    class MainClass
+    class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+          //  Database.SetInitializer(new DropCreateDatabaseAlways<AnswersDb>());
+
+          //  using (IRepository<Answer> )
         }
     }
 }
